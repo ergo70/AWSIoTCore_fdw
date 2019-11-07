@@ -381,3 +381,4 @@ class AIC_fdw(ForeignDataWrapper):
             log_to_postgres("Unknown error {}".format(e), ERROR)
 
         return None
+
